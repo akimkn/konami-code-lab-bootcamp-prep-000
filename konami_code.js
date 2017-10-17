@@ -1,11 +1,11 @@
 const code = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65]
 
-function init() {
+//function init() {
   document.body.addEventListener('keydown', onKeyDownHandler(e){
     alert ('COOCOCOMOBER')
   })
   // Write your JavaScript code inside the init() function
-}
+//}
 
 var index = 0;
 
