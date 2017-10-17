@@ -5,8 +5,9 @@ function init() {
 
 }
 
-document.body.addEventListener('keydown', function(event))
-
+document.body.addEventListener('keydown', function(event) {
+  alert ('WHHHHAAATTTTT?!?')
+})
 
 /
 const main = document.getElementById('mocha')
