@@ -4,3 +4,9 @@ function init() {
   // Write your JavaScript code inside the init() function
 
 }
+
+const main = document.getElementById('mocha')
+
+main.addEventListener('click', function(event) {
+  alert('I was clicked!')
+})
