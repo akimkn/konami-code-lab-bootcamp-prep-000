@@ -9,7 +9,7 @@ document.body.addEventListener('keydown', function(event) {
   alert ('WHHHHAAATTTTT?!?')
 })
 
-/
+/*
 const main = document.getElementById('mocha')
 
 main.addEventListener('click', function(event) {
