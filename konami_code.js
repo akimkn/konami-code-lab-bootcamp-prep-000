@@ -17,12 +17,12 @@ function onKeyDownHandler(e) {
 
 document.body.addEventListener('keydown', onKeyDownHandler('keydown'))
 }
+
+
 /*function init() {
   let index = 0
   // Write your JavaScript code inside the init() function
 }
-
-
 
 /*
 const main = document.getElementById('mocha')
