@@ -12,7 +12,7 @@ function init() {
       index++
 
       if (index === code.length - 1) {
-        alert("YOU DID IT!")
+        alert("KONAMI CODE")
         index = 0
       }
     } else {
