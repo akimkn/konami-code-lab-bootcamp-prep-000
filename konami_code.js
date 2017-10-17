@@ -20,10 +20,7 @@ function init() {
   // Write your JavaScript code inside the init() function
 }
 
-/*
-document.body.addEventListener('keydown', function(event) {
-  alert ('WHHHHAAATTTTT?!?')
-})
+
 
 /*
 const main = document.getElementById('mocha')
