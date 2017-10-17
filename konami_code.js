@@ -5,8 +5,10 @@ function init() {
 
 }
 
+document.body.addEventListener('keydown', function(event))
 
-/*
+
+/
 const main = document.getElementById('mocha')
 
 main.addEventListener('click', function(event) {
