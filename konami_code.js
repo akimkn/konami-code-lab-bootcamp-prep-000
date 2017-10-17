@@ -12,9 +12,8 @@ function onKeyDownHandler(e) {
     }
   } else {
     index = 0;
-  }
+  };
 }
-
 document.body.addEventListener('keydown', onKeyDownHandler('keydown'))
 }
 
