@@ -1,24 +1,25 @@
 const code = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65]
 
 function init() {
-  function onKeyDownHandler(e) {
-  const key = parseInt(e.detail || e.which);
-
-  if (key === alphabet[index]) {
-    index++;
-
-    if (index === alphabet.length) {
-      alert("Hurray!");
-
-      index = 0;
-    }
-  } else {
-    index = 0;
-  }
-}
   // Write your JavaScript code inside the init() function
 }
 
+  document.body.addEventListener('keydown', function(e) {
+    if (parseInt(e.detail || e.which) === code[i]) {
+      i++;
+      if (i === code.length) {
+        alert("Boooooom");
+        i = 0;
+      }
+    }
+    else {
+        i = 0;
+      }
+  });
+  return
+}
+
+/*
 document.body.addEventListener('keydown', function(event) {
   alert ('WHHHHAAATTTTT?!?')
 })
